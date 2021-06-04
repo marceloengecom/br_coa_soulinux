@@ -8,10 +8,10 @@
     </record>
 
     <record id="br_coa_soulinux_chart_template" model="account.chart.template">
-        <field name="name">Plano de Contas para Microempresa e Empresa de Pequeno Porte</field>
+        <field name="name">SOULinux - Plano de Contas para Microempresa e Empresa de Pequeno Porte</field>
         <field name="code_digits">1</field>
-        <field name="bank_account_code_prefix">1.1.1.</field>
-        <field name="cash_account_code_prefix">1.1.1.</field>
+        <field name="bank_account_code_prefix">1.1.3.</field>
+        <field name="cash_account_code_prefix">1.1.2.</field>
         <field name="transfer_account_code_prefix">1.1.5.</field>
         <field name="currency_id" ref="base.BRL"/>
     </record>

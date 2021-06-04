@@ -55,8 +55,8 @@
         <field name="company_id" ref="base.main_company"></field>
     </record>
 
-    <record id="account_group_1_2_1" model="account.group">
-        <field name="code_prefix_start">1.2.1</field>
+    <record id="account_group_1_2_2" model="account.group">
+        <field name="code_prefix_start">1.2.2</field>
         <field name="name">Imobilizado</field>
         <field name="parent_id" ref="account_group_1_2"/>
         <field name="company_id" ref="base.main_company"></field>

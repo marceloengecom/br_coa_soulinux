@@ -4,8 +4,8 @@
 
 {  # pylint: disable=C8101,C8103
     'name': 'Plano de Contas SOULinux',
-    'summary': "Plano de Contas para Microempresa SOULinux",
-    'description': """Plano de Contas para Microempresa SOULinux""",
+    'summary': "SOULinux - Plano de Contas",
+    'description': """SOULinux - Plano de Contas para Microempresa""",
     'version': '14.0.1.0.0',
     'category': 'Localization',
     'author': 'SOULinux',
