@@ -8,7 +8,7 @@
 Ex: ls /opt/odoo/custom-addons
 
 
-#### Cri uma subpasta. Ex: 'soulinux'
+#### Crie uma subpasta. Ex: 'soulinux'
 
 Ex: mkdir /opt/odoo/custom-addons/soulinux
 
