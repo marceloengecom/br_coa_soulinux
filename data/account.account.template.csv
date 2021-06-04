@@ -14,10 +14,11 @@ account_account_1_1_1_09,1.1.1.09,Multas/Juros a Receber,True,account.data_accou
 account_account_1_1_2,1.1.2,Caixa e Equivalentes de Caixa,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
 account_account_1_1_2_01,1.1.2.01,Caixa Geral,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
 account_account_1_1_3,1.1.3,Bancos (Conta Movimento),True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
-account_account_1_1_3_01,1.1.3.01,Caixa Econômica Federal,True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
-account_account_1_1_3_02,1.1.3.02,Banco do Estado do Rio Grande do Sul,True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
-account_account_1_1_3_03,1.1.3.03,Banco Inter,True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
-account_account_1_1_3_04,1.1.3.04,PagHiper Pagamentos,True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
+account_account_1_1_3_01,1.1.3.01,PagHiper Pagamentos,True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
+account_account_1_1_3_02,1.1.3.02,Banco Inter,True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
+account_account_1_1_3_03,1.1.3.03,Caixa Econômica Federal,True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
+account_account_1_1_3_04,1.1.3.04,Banco do Estado do Rio Grande do Sul,True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
+account_account_1_1_4,1.1.4,Outros Créditos,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
 account_account_1_2,1.2,NÃO CIRCULANTE,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
 account_account_1_2_1,1.2.1,Investimentos,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
 account_account_1_2_1_1,1.2.1.1,Participações Societárias,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
