@@ -100,17 +100,17 @@ account_account_2_2_2_07,2.2.2.07,"(-) Deduções de Tributos, Abatimentos, Devo
 account_account_3,3,CUSTOS E DESPESAS,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
 account_account_3_1,3.1,CUSTOS OPERACIONAIS,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
 account_account_3_1_1,3.1.1,Custo dos produtos vendidos,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
-account_account_3_1_1_01,3.1.1.01,Custo dos Materiais,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
-account_account_3_1_1_02,3.1.1.02,Custos da Mão de Obra,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
-account_account_3_1_1_03,3.1.1.03,Encargos Sociais,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
+account_account_3_1_1_01,3.1.1.01,Custo dos Materiais de produtos vendidos,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
+account_account_3_1_1_02,3.1.1.02,Custos da Mão de Obra de produtos vendidos,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
+account_account_3_1_1_03,3.1.1.03,Encargos Sociais de produtos vendidos,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
 account_account_3_1_2,3.1.2,Custo dos serviços prestados,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
-account_account_3_1_2_01,3.1.2.01,Combustível,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
-account_account_3_1_2_02,3.1.2.02,Custos da Mão de Obra,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
-account_account_3_1_2_03,3.1.2.03,Encargos Sociais,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
+account_account_3_1_2_01,3.1.2.01,Transporte de serviços prestados,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
+account_account_3_1_2_02,3.1.2.02,Custos da Mão de Obra de serviços prestados,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
+account_account_3_1_2_03,3.1.2.03,Encargos Sociais de serviços prestados,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
 account_account_3_2,3.2,DESPESAS OPERACIONAIS,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
 account_account_3_2_1,3.2.1,Despesas Administrativas,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
 account_account_3_2_2,3.2.2,Despesas com Vendas,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_3_2_3,3.2.3,Tarifas Bancárias Correntes,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_3_2_3,3.2.3,Tarifas Bancárias a Pagar,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
 account_account_3_2_4,3.2.4,Outras Despesas Financeiras,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
 account_account_3_2_5,3.2.5,Despesas com Baixa de Imobilizado,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
 account_account_3_2_6,3.2.6,Despesas com Baixa de Investimentos,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
