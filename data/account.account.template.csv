@@ -2,21 +2,21 @@ id,code,name,reconcile,user_type_id:id,chart_template_id:id
 account_account_1,1,ATIVO,False,account.data_account_type_revenue,br_coa_soulinux_chart_template
 account_account_1_1,1.1,ATIVO CIRCULANTE,False,account.data_account_type_revenue,br_coa_soulinux_chart_template
 account_account_1_1_1,1.1.1,Contas a Receber (Clientes),True,account.data_account_type_receivable,br_coa_soulinux_chart_template
-account_account_1_1_1_01,1.1.1.01,Receita com Serviços Vendidos,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
-account_account_1_1_1_02,1.1.1.02,Receita com Produtos Vendidos,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
-account_account_1_1_1_03,1.1.1.03,Títulos a Receber,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
-account_account_1_1_1_04,1.1.1.04,Tributos a Recuperar,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
-account_account_1_1_1_05,1.1.1.05,Dividendos a Receber,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
-account_account_1_1_1_06,1.1.1.06,Empréstimos a Receber,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_1_1_1_07,1.1.1.07,Multas/Juros a Receber,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_1_1_1_08,1.1.1.08,Descontos de Fornecedores a Receber,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
+account_account_1_1_1_1,1.1.1.1,Receita com Serviços Vendidos,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
+account_account_1_1_1_2,1.1.1.2,Receita com Produtos Vendidos,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
+account_account_1_1_1_3,1.1.1.3,Títulos a Receber,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
+account_account_1_1_1_4,1.1.1.4,Tributos a Recuperar,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
+account_account_1_1_1_5,1.1.1.5,Dividendos a Receber,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
+account_account_1_1_1_6,1.1.1.6,Empréstimos a Receber,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_1_1_1_7,1.1.1.7,Multas/Juros a Receber,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_1_1_1_8,1.1.1.8,Descontos de Fornecedores a Receber,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
 account_account_1_1_2,1.1.2,Caixa e Equivalentes de Caixa,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
-account_account_1_1_2_01,1.1.2.01,Caixa Geral,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
 account_account_1_1_3,1.1.3,Bancos (Conta Movimento),True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
-account_account_1_1_3_01,1.1.3.01,PagHiper Pagamentos,True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
-account_account_1_1_3_02,1.1.3.02,Banco Inter,True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
-account_account_1_1_3_03,1.1.3.03,Caixa Econômica Federal,True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
-account_account_1_1_3_04,1.1.3.04,Banrisul,True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
+account_account_1_1_3_5,1.1.3.5,PagHiper Pagamentos,True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
+account_account_1_1_3_6,1.1.3.6,Caixa Econômica Federal,True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
+account_account_1_1_3_7,1.1.3.7,Banrisul,True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
+account_account_1_1_3_8,1.1.3.8,Banco Inter,True,account.data_account_type_liquidity,br_coa_soulinux_chart_template
+account_account_1_1_3_9,1.1.3.9,Transferência entre Contas,True,account.data_account_type_current_assets,br_coa_soulinux_chart_template
 account_account_1_2,1.2,NÃO CIRCULANTE,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
 account_account_1_2_1,1.2.1,Investimentos,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
 account_account_1_2_1_1,1.2.1.1,Participações Societárias,True,account.data_account_type_revenue,br_coa_soulinux_chart_template
@@ -37,74 +37,72 @@ account_account_1_2_3_2,1.2.3.2,Softwares,True,account.data_account_type_current
 account_account_2,2,PASSIVO,True,account.data_account_type_current_assets,br_coa_soulinux_chart_template
 account_account_2_1,2.1,PASSIVO CIRCULANTE,True,account.data_account_type_current_assets,br_coa_soulinux_chart_template
 account_account_2_1_1,2.1.1,Contas a Pagar (Fornecedores),True,account.data_account_type_payable,br_coa_soulinux_chart_template
-account_account_2_1_1_01,2.1.1.01,Serviços de Tecnologia da Informação,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_1_02,2.1.1.02,Computadores e Periféricos,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_1_03,2.1.1.03,"Telefonia Fixa, Móvel e Internet",True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_1_04,2.1.1.04,Provedor de Serviços em Nuvem,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_1_05,2.1.1.05,Aluguel de Equipamentos,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_1_06,2.1.1.06,Energia Elétrica,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_1_07,2.1.1.07,Alugueis a pagar,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_1_08,2.1.1.08,Material de Uso e Consumo,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_1_09,2.1.1.09,Serviços de Lavanderia,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_1_1,2.1.1.1,Serviços de Tecnologia da Informação,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_1_2,2.1.1.2,Computadores e Periféricos,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_1_3,2.1.1.3,"Telefonia Fixa, Móvel e Internet",True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_1_4,2.1.1.4,Provedor de Serviços em Nuvem,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_1_5,2.1.1.5,Aluguel de Equipamentos,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_1_6,2.1.1.6,Energia Elétrica,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_1_7,2.1.1.7,Alugueis a pagar,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_1_8,2.1.1.8,Material de Uso e Consumo,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_1_9,2.1.1.9,Serviços de Lavanderia,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
 account_account_2_1_1_10,2.1.1.10,Assessoria Jornalística/Comunicação,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
 account_account_2_1_1_11,2.1.1.11,Assessoria Contábil,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
 account_account_2_1_1_12,2.1.1.12,Assessoria em Tecnologia da Informação,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
 account_account_2_1_1_13,2.1.1.13,Assessoria Jurídica,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
 account_account_2_1_2,2.1.2,Obrigações Fiscais,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_1_2_01,2.1.2.01,Simples Nacional a Recolher,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_1_2_02,2.1.2.02,ICMS a Recolher,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_1_2_03,2.1.2.03,ISS a Recolher,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_1_2_04,2.1.2.04,IPI a Recolher,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_1_2_05,2.1.2.05,Imposto de Renda a Pagar,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_1_2_1,2.1.2.1,Simples Nacional a Recolher,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_1_2_2,2.1.2.2,ICMS a Recolher,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_1_2_3,2.1.2.3,ISS a Recolher,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_1_2_4,2.1.2.4,IPI a Recolher,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_1_2_5,2.1.2.5,Imposto de Renda a Pagar,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
 account_account_2_1_3,2.1.3,Obrigações Trabalhistas e Sociais,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_1_3_01,2.1.3.01,Salários a Pagar,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_1_3_02,2.1.3.02,FGTS a Recolher,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_1_3_03,2.1.3.03,INSS dos Segurados a Recolher,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_1_3_04,2.1.3.04,Provisão de Férias,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_1_3_05,2.1.3.05,Provisão de 13º Salário,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_1_3_06,2.1.3.06,Provisão de Encargos Sociais sobre Férias e 13º Salário,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_1_3_07,2.1.3.07,Pró-labore Sócios,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_1_3_08,2.1.3.08,Dividendos a pagar,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_1_3_1,2.1.3.1,Salários a Pagar,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_1_3_2,2.1.3.2,FGTS a Recolher,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_1_3_3,2.1.3.3,INSS dos Segurados a Recolher,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_1_3_4,2.1.3.4,Provisão de Férias,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_1_3_5,2.1.3.5,Provisão de 13º Salário,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_1_3_6,2.1.3.6,Provisão de Encargos Sociais sobre Férias e 13º Salário,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_1_3_7,2.1.3.7,Pró-labore Sócios,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_1_3_8,2.1.3.8,Dividendos a pagar,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
 account_account_2_1_4,2.1.4,Convênios e Vantagens,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_4_01,2.1.4.01,Convênio Alimentação,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_4_02,2.1.4.02,Convênio Médico,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_4_03,2.1.4.03,Convênio Odontológico,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_4_04,2.1.4.04,Convênio Transporte,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_4_05,2.1.4.05,Farmácia,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_4_06,2.1.4.06,"Viagens, Diárias e Estadias",True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_4_07,2.1.4.07,Cursos e Seminários,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_4_1,2.1.4.1,Convênio Alimentação,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_4_2,2.1.4.2,Convênio Médico,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_4_3,2.1.4.3,Convênio Odontológico,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_4_4,2.1.4.4,Convênio Transporte,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_4_5,2.1.4.5,Farmácia,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_4_6,2.1.4.6,"Viagens, Diárias e Estadias",True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_4_7,2.1.4.7,Cursos e Seminários,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
 account_account_2_1_5,2.1.5,Veículos,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_5_01,2.1.5.01,Licenciamento/Seguro Obrigatório e Multas,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_5_02,2.1.5.02,Manutenção Veículos,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_5_03,2.1.5.03,Estacionamento,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_5_04,2.1.5.04,Transporte e Condução,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
-account_account_2_1_5_05,2.1.5.05,Pedágios,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_5_1,2.1.5.1,Licenciamento/Seguro Obrigatório e Multas,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_5_2,2.1.5.2,Manutenção Veículos,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_5_3,2.1.5.3,Estacionamento,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_5_4,2.1.5.4,Transporte e Condução,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
+account_account_2_1_5_5,2.1.5.5,Pedágios,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
 account_account_2_1,2.2,PASSIVO NÃO CIRCULANTE,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
 account_account_2_2_1,2.2.1,Empréstimos e Financiamentos,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_2_1_01,2.2.1.01,Multas/Juros/Atualização Monetária,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_2_1_02,2.2.1.02,Juros Passivos,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_2_1_03,2.2.1.03,Variação Monetária Passiva,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_2_1_04,2.2.1.04,Empréstimos Bancários,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_2_1_05,2.2.1.05,Empréstimos Sócios,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_2_1_06,2.2.1.06,Financiamentos,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_2_1_1,2.2.1.1,Multas/Juros/Atualização Monetária,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_2_1_2,2.2.1.2,Juros Passivos,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_2_1_3,2.2.1.3,Variação Monetária Passiva,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_2_1_4,2.2.1.4,Empréstimos Bancários,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_2_1_5,2.2.1.5,Empréstimos Sócios,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_2_1_6,2.2.1.6,Financiamentos,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
 account_account_2_2_2,2.2.2,Capital Social,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_2_2_01,2.2.2.01,Capital Subscrito,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_2_2_02,2.2.2.02,(-) Capital a Integralizar,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_2_2_03,2.2.2.03,Reservas de Capital,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_2_2_04,2.2.2.04,Reservas de Lucro,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_2_2_05,2.2.2.05,Lucros Acumulados,True,account.data_unaffected_earnings,br_coa_soulinux_chart_template
-account_account_2_2_2_06,2.2.2.06,(-) Prejuízos Acumulados,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
-account_account_2_2_2_07,2.2.2.07,"(-) Deduções de Tributos, Abatimentos, Devoluções",True,account.data_account_type_revenue,br_coa_soulinux_chart_template
+account_account_2_2_2_1,2.2.2.1,Capital Subscrito,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_2_2_2,2.2.2.2,(-) Capital a Integralizar,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_2_2_3,2.2.2.3,Reservas de Capital,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_2_2_4,2.2.2.4,Reservas de Lucro,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_2_2_5,2.2.2.5,Lucros Acumulados,True,account.data_unaffected_earnings,br_coa_soulinux_chart_template
+account_account_2_2_2_6,2.2.2.6,(-) Prejuízos Acumulados,True,account.data_account_type_current_liabilities,br_coa_soulinux_chart_template
+account_account_2_2_2_7,2.2.2.7,"(-) Deduções de Tributos, Abatimentos, Devoluções",True,account.data_account_type_revenue,br_coa_soulinux_chart_template
 account_account_3,3,CUSTOS E DESPESAS,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
 account_account_3_1,3.1,CUSTOS OPERACIONAIS,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
 account_account_3_1_1,3.1.1,Custo dos produtos vendidos,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
-account_account_3_1_1_01,3.1.1.01,Custo dos Materiais de produtos vendidos,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
-account_account_3_1_1_02,3.1.1.02,Custos da Mão de Obra de produtos vendidos,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
-account_account_3_1_1_03,3.1.1.03,Encargos Sociais de produtos vendidos,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
-account_account_3_1_2,3.1.2,Custo dos serviços prestados,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
-account_account_3_1_2_01,3.1.2.01,Transporte de serviços prestados,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
-account_account_3_1_2_02,3.1.2.02,Custos da Mão de Obra de serviços prestados,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
-account_account_3_1_2_03,3.1.2.03,Encargos Sociais de serviços prestados,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
+account_account_3_1_2,3.1.2,Custo dos Materiais de produtos vendidos,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
+account_account_3_1_3,3.1.3,Custos da Mão de Obra de produtos vendidos,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
+account_account_3_1_4,3.1.4,Custo dos serviços prestados,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
+account_account_3_1_5,3.1.5,Transporte de serviços prestados,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
+account_account_3_1_6,3.1.6,Custos da Mão de Obra de serviços prestados,True,account.data_account_type_direct_costs,br_coa_soulinux_chart_template
 account_account_3_2,3.2,DESPESAS OPERACIONAIS,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
 account_account_3_2_1,3.2.1,Despesas Administrativas,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
 account_account_3_2_2,3.2.2,Despesas com Vendas,True,account.data_account_type_expenses,br_coa_soulinux_chart_template
