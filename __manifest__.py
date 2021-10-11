@@ -6,7 +6,7 @@
     'name': 'Plano de Contas SOULinux',
     'summary': "SOULinux - Plano de Contas",
     'description': """SOULinux - Plano de Contas para Microempresa""",
-    'version': '14.0.1.0.0',
+    'version': '15.0.1.0.0',
     'category': 'Localization',
     'author': 'SOULinux',
     'license': 'AGPL-3',
