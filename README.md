@@ -18,7 +18,7 @@ Ex: mkdir /opt/odoo/custom-addons/soulinux
 Ex: cd /opt/odoo/custom-addons/soulinux
 
 
-sudo git clone https://github.com/marceloengecom/br_coa_soulinux --branch 14.0
+sudo git clone https://github.com/marceloengecom/br_coa_soulinux --branch 15.0
 
 
 #### Ajuste as permissões dos arquivos e pastas:
